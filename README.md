@@ -1,11 +1,18 @@
 # NavigationDemo
 NavigationDemo
+
+
  project：
-  ext.nav_version = "1.0.0-alpha01"
+ 
+ 
+   ext.nav_version = "1.0.0-alpha01"
+  
+  
     repositories {
         google()
         jcenter()
     }
+    
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0-alpha16'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
